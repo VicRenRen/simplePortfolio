@@ -1,0 +1,66 @@
+.navbar {
+  overflow: hidden;
+  background-color: whitesmoke;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  right: 0;
+  width: 20%;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: rgb(0, 24, 51);
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Lucida Console", monospace;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: orangered;
+  color: whitesmoke;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+h1 {
+  text-align: center;
+  color: grey;
+  font-size: 70px;
+  font-family: "Lucida Console", monospace;
+
+  padding-top: 350px;
+  padding-bottom: 400px;
+}
+h1:hover {
+  color: orangered;
+}
+
+body {
+  background-color: white;
+}
+body {
+  width: 1280px;
+  height: 1024px;
+  margin: 0 auto !important;
+}
+.gallery {
+  display: flex;
+}
+.pages {
+  width: 60%;
+  height: auto;
+}
+footer {
+  text-decoration: none;
+  text-align: left;
+  font-size: 20px;
+  color: orangered;
+  font-family: "Courier New", monospace;
+}
